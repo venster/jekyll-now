@@ -2,7 +2,6 @@
 layout: default
 ---
 <div class="posts">
-  <h2>THIS IS THE INDEX asfasdfPAGE</h2>
   {% for post in site.posts %}
     <article class="post">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -10,7 +9,7 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
+  <h2>THIS IS THE INDEX asfasdfPAGE</h2>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
